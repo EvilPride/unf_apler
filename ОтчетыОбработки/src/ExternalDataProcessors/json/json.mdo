@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12567863-6e36-4ddf-8e06-fd694d7eb441">
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12567863-6e36-4ddf-8e06-fd694d7eb441">
   <producedTypes>
     <objectType typeId="6185d540-e8b9-497a-95b3-404c8dacf919" valueTypeId="0cd55f54-b80c-479f-abe9-11ab8bec37b2"/>
   </producedTypes>
@@ -9,4 +9,29 @@
     <value>Json</value>
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="54457fa9-fa93-41f8-b2a7-27abfc07e6f2"/>
+  <defaultForm>ExternalDataProcessor.json.Form.Форма</defaultForm>
+  <attributes uuid="f7872827-4915-41b5-8426-e04d1fadef28">
+    <name>ПутьПапки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь папки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e459af3c-bf2f-4879-ae09-3ee713e37278">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ExternalDataProcessor>
