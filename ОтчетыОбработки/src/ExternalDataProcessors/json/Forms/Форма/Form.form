@@ -43,12 +43,12 @@
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
       <handlers>
-        <event>StartChoice</event>
-        <name>ПутьПапкиНачалоВыбора</name>
-      </handlers>
-      <handlers>
         <event>ChoiceProcessing</event>
         <name>ПутьПапкиОбработкаВыбора</name>
+      </handlers>
+      <handlers>
+        <event>StartChoice</event>
+        <name>ПутьПапкиНачалоВыбора</name>
       </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
