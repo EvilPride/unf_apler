@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a3bbd47-20e5-4ca5-b0c5-f33e5bfd572e">
+  <producedTypes>
+    <objectType typeId="439ce7eb-d7e0-44b9-9432-2306130060c3" valueTypeId="4b7989ca-f948-4326-bc35-1f18edd40a0f"/>
+  </producedTypes>
+  <name>json</name>
+  <synonym>
+    <key>ru</key>
+    <value>Json</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="096d47f2-c5f3-42f3-8573-6fcdcdab4deb"/>
+</mdclass:ExternalDataProcessor>
